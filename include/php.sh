@@ -67,7 +67,7 @@ php_preinstall_settings(){
         ${with_gd} \
         --with-zlib \
         --with-bz2 \
-        --with-curl=/usr \
+        --with-curl=/usr/local/curl \
         --with-gettext \
         --with-gmp \
         --with-mhash \
